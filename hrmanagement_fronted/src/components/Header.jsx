@@ -1,13 +1,11 @@
-
+import { Link } from "react-router-dom";
 function Header(){
-
     return(
         <div>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+            <Link to="/home.jsx">Home</Link>
+            <Link to="/about.jsx">About us</Link>
+            <Link to="/contact">Contact us</Link>
         </div>
-    )
+    );
 }
-
 export default Header
